@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav>
       <section className="navigation fixed h-auto left-5 top-[20px] md:left-[50px] logo cursor-pointer">
-       <Link activeClass="active" spy={true} offset={-70} to="home"> <h1 className="font-bold text-4xl text-black">SV</h1></Link>
+       <Link activeClass="active" spy={true} offset={-70} to="home"> <h1 className="font-bold text-3xl md:text-4xl text-black">SV</h1></Link>
       </section>
       <section className="navigation fixed h-auto z-50 right-5 md:right-[50px] top-[20px]">
         <div className="nav-icon cursor-pointer bg-[#a537fd] p-3 rounded-full text-white "
