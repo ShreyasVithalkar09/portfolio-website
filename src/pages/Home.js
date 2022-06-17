@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import HeroImg from "../hero.png";
+import HeroImg from "../profile.png";
 import Button from "../components/Button";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
