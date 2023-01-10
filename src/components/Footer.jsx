@@ -1,6 +1,9 @@
 import React from "react";
 
 const Footer = () => {
+  const date = new Date();
+  let year = date.getFullYear();
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -13,7 +16,8 @@ const Footer = () => {
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold mb-8">
           Let’s get connected and work together on next project.
         </h2>
-        <p className="text-center">Made with 🧡 by Shreyas</p>
+        <p className="text-center mb-4">Made with 🧡 by Shreyas</p>
+        <p className="text-center ">Copyright &#169; Shreyas {year}</p>
       </footer>
       <div className="scroll-to-top flex  justify-end w-[92%] mx-auto">
         <div
