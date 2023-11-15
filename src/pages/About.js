@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Button from "../components/Button";
 import Heading from "../components/Heading";
 // import Resume from "../Resume.pdf";
 import AOS from "aos";
